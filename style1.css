@@ -60,6 +60,7 @@ height:12cm;
 }
 #slider #slider-file-1 p{
 z-index:7;
+visibility:visible;
 }
 #slider #slider-file-2{
 z-index:2;
