@@ -153,13 +153,22 @@ animation-iteration-count:infinite;
 #slider #slider-file-6{
 z-index:-10;
 visibility:hidden;
+animation-name:s6;
+animation-duration:5s;
+animation-iteration-count:infinite;
 }
 #slider #slider-file-6 .slider-img{
 z-index:-9;
 height:12cm;
+animation-name:s6-img;
+animation-duration:5s;
+animation-iteration-count:infinite;
 }
 #slider #slider-file-6 .desc{
 z-index:-8;
+animation-name:s6-desc;
+animation-duration:5s;
+animation-iteration-count:infinite;
 }
 #slider .slider-file .desc{
     position:relative;
