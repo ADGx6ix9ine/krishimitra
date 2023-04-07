@@ -48,30 +48,64 @@
     width:100%;
     height:100%;
     opacity:0.5;
-    z-index:0;
 }
 #slider #slider-file-1{
 z-index:5;
 }
+#slider #slider-file-1 .slider-img{
+z-index:6;
+}
+#slider #slider-file-1 p{
+z-index:7;
+}
 #slider #slider-file-2{
+z-index:2;
+}
+#slider #slider-file-2 .slider-img{
+z-index:3;
+}
+#slider #slider-file-2 p{
 z-index:4;
 }
 #slider #slider-file-3{
-z-index:3;
+z-index:-1;
 }
-#slider #slider-file-4{
-z-index:2;
+#slider #slider-file-3 .slider-img{
+z-index:0;
 }
-#slider #slider-file-5{
+#slider #slider-file-3 p{
 z-index:1;
 }
+#slider #slider-file-4{
+z-index:-4;
+}
+#slider #slider-file-4 .slider-img{
+z-index:-3;
+}
+#slider #slider-file-4 p{
+z-index:-2;
+}
+#slider #slider-file-5{
+z-index:-7;
+}
+#slider #slider-file-5 .slider-img{
+z-index:-6;
+}
+#slider #slider-file-5 p{
+z-index:-5;
+}
 #slider #slider-file-6{
-z-index:0;
+z-index:-10;
+}
+#slider #slider-file-6 .slider-img{
+z-index:-9;
+}
+#slider #slider-file-6 p{
+z-index:-8;
 }
 #slider .slider-file p{
     position:relative;
     top:-50%;
-    z-index:1;
     color:#ffffff;
     font-family: 'Noto Sans', sans-serif;
     font-weight:500;
