@@ -1215,49 +1215,7 @@ animation-iteration-count:infinite;
     }
 }
 
-    #report{
-    position:relative;
-    top:5cm;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
-    }
-    #report h1{
-        font-family: 'Noto Sans', sans-serif;
-        font-weight:500;
-        color:
-    }
-#report #calendar{
-    position:relative;
-    left:0%;
-    width:10cm;
-    height:10cm;
-    border:0px solid transparent;
-    border-radius:5px;
-    background-color:transparent;
-}
-#report #weather{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:space-around;
-}
-    #report #weather .row{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-items:center;
-    width:100%;
-    }
-#report #weather .cond{
-    position:relative;
-    width:10cm;height:10cm;
-    border:0px solid transparent;
-    border-radius:5px;
-    background-color:transparent;
-    margin:0.5cm;
-}
+    
     footer{
         display:flex;
         flex-direction:column;
