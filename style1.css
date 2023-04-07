@@ -32,6 +32,8 @@
     #slider{
     width:100%;
     height:8cm;
+    background-color:#5C01F4aa;
+    
     }
     #report{
     display:flex;
