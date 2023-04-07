@@ -73,13 +73,22 @@ animation-iteration-count:inifinite;
 #slider #slider-file-2{
 z-index:2;
 visibility:hidden;
+animation-name:s2;
+animation-duration:5s;
+animation-iteration-count:inifinite;
 }
 #slider #slider-file-2 .slider-img{
 z-index:3;
 height:12cm;
+animation-name:s2-img;
+animation-duration:5s;
+animation-iteration-count:inifinite;
 }
 #slider #slider-file-2 .desc{
 z-index:4;
+animation-name:s2-desc;
+animation-duration:5s;
+animation-iteration-count:inifinite;
 }
 #slider #slider-file-3{
 z-index:-1;
