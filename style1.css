@@ -42,16 +42,23 @@
     top:0px;
 }
 #slider .slider-file .slider-img{
+    position:relative;
+    left:0px;
+    top:0px;
     z-index:0;
     width:100%;
     height:100%;
     opacity:0.5;
+    
 }
 #slider .slider-file p{
+    position:relative;
+    top:-50%;
     z-index:1;
     color:#ffffff;
     font-family: 'Noto Sans', sans-serif;
     font-weight:500;
+    font-size:1cm;
 }
     #report{
     display:flex;
