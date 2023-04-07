@@ -33,15 +33,8 @@
     align-items:center;
     width:100%;
     }
+ 
 #report #weather .cond{
-    position:relative;
-    width:10cm;height:10cm;
-    border:0px solid transparent;
-    border-radius:5px;
-    background-color:transparent;
-    margin:0.5cm;
-}
-.cond{
                 display:flex;
                 flex-direction: column;
                 justify-content: flex-start;
@@ -65,7 +58,7 @@
             }
             .y-labels{
                 position:relative;
-                top:0.2cm;
+                top:5cm;
                 width:10cm;
                 display:flex;
                 flex-direction: row;
