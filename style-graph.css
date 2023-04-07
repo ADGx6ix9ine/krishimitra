@@ -58,7 +58,7 @@
             }
             .y-labels{
                 position:relative;
-                top:5cm;
+                top:10cm;
                 width:10cm;
                 display:flex;
                 flex-direction: row;
