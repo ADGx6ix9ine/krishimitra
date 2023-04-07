@@ -32,7 +32,7 @@
     #slider{
     position:relative;
     top:1cm;
-    width:100%;
+    width:80%;
     height:12cm;
     background-color:#000000;
     }
@@ -42,6 +42,7 @@
     position:absolute;
     left:0px;
     top:0px;
+    box-shadow:0 0 10px #000000;
 }
 #slider .slider-file .slider-img{
     position:relative;
@@ -71,6 +72,8 @@ z-index:7;
 animation-name:s1-desc;
 animation-duration:30s;
 animation-iteration-count:infinite;
+    width:50%;
+    overflow:wrap;
 }
 #slider #slider-file-2{
 z-index:2;
