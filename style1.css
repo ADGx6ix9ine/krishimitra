@@ -168,7 +168,11 @@ z-index:-8;
     margin:0.5cm;
 }
     footer{
-    display:flex;
-    flex-direction:row;
+        display:flex;
+        flex-direction:row;
+        background-color:#5C01F4;
+        color:#ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight:400;
     }
     
