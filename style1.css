@@ -55,7 +55,7 @@ visibility:visible;
 z-index:6;
 height:12cm;
 }
-#slider #slider-file-1 p{
+#slider #slider-file-1 .desc{
 z-index:7;
 }
 #slider #slider-file-2{
@@ -66,7 +66,7 @@ visibility:hidden;
 z-index:3;
 height:12cm;
 }
-#slider #slider-file-2 p{
+#slider #slider-file-2 .desc{
 z-index:4;
 }
 #slider #slider-file-3{
@@ -77,7 +77,7 @@ visibility:hidden;
 z-index:0;
 height:12cm;
 }
-#slider #slider-file-3 p{
+#slider #slider-file-3 .desc{
 z-index:1;
 }
 #slider #slider-file-4{
@@ -88,7 +88,7 @@ visibility:hidden;
 z-index:-3;
 height:12cm;
 }
-#slider #slider-file-4 p{
+#slider #slider-file-4 .desc{
 z-index:-2;
 }
 #slider #slider-file-5{
@@ -99,7 +99,7 @@ visibility:hidden;
 z-index:-6;
 height:12cm;
 }
-#slider #slider-file-5 p{
+#slider #slider-file-5 .desc{
 z-index:-5;
 }
 #slider #slider-file-6{
@@ -110,10 +110,10 @@ visibility:hidden;
 z-index:-9;
 height:12cm;
 }
-#slider #slider-file-6 p{
+#slider #slider-file-6 .desc{
 z-index:-8;
 }
-#slider .slider-file p{
+#slider .slider-file .desc{
     position:relative;
     top:-50%;
     left:10px;
