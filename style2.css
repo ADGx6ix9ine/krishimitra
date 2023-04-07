@@ -37,9 +37,9 @@
     font-size:1cm;
     font-family: 'Poppins', sans-serif;
     font-weight:400;
-    background-color:red;
-    border:0px solid transparent;
-    border-radius:10px;
+}
+#personal-profile .cred{
+    color:#000011;
 }
 #personal-profile #p-options{
     color:#000000aa;
