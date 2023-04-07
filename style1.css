@@ -1286,6 +1286,8 @@ animation-iteration-count:infinite;
 
         color:#ffffff;
         text-decoration: none;
+        display:flex;
+        flex-direction:column;
     }
     #sep{
         background-color: #ffffff;
