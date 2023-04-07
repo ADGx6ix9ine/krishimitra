@@ -183,6 +183,8 @@ animation-iteration-count:infinite;
     font-family: 'Noto Sans', sans-serif;
     font-weight:500;
     font-size:1cm;
+    width:50%;
+    overflow:wrap;
 }
 @keyframes s1{
     0%{
