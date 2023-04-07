@@ -51,6 +51,7 @@
 }
 #slider #slider-file-1{
 z-index:5;
+visibility:visible;
 }
 #slider #slider-file-1 .slider-img{
 z-index:6;
@@ -60,6 +61,7 @@ z-index:7;
 }
 #slider #slider-file-2{
 z-index:2;
+visibility:hidden;
 }
 #slider #slider-file-2 .slider-img{
 z-index:3;
@@ -69,6 +71,7 @@ z-index:4;
 }
 #slider #slider-file-3{
 z-index:-1;
+visibility:hidden;
 }
 #slider #slider-file-3 .slider-img{
 z-index:0;
@@ -78,6 +81,7 @@ z-index:1;
 }
 #slider #slider-file-4{
 z-index:-4;
+visibility:hidden;
 }
 #slider #slider-file-4 .slider-img{
 z-index:-3;
@@ -87,6 +91,7 @@ z-index:-2;
 }
 #slider #slider-file-5{
 z-index:-7;
+visibility:hidden;
 }
 #slider #slider-file-5 .slider-img{
 z-index:-6;
