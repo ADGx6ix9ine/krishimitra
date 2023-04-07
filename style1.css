@@ -53,6 +53,9 @@ visibility:visible;
 }
 #slider #slider-file-1 .slider-img{
 z-index:6;
+position:relative;
+top:0cm;
+left:0cm;
 height:12cm;
 }
 #slider #slider-file-1 p{
