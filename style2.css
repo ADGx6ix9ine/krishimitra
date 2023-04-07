@@ -29,3 +29,13 @@
     text-transform:uppercase;
     color:#ffffff;
     }
+#personal-profile{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    font-size:1cm;
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    
+}
