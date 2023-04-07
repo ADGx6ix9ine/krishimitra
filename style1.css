@@ -183,7 +183,7 @@ animation-iteration-count:infinite;
     0%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     14%{
     z-index:-10;
@@ -233,14 +233,14 @@ animation-iteration-count:infinite;
     100%{
     z-index:2;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
 }
 @keyframes s1-img{
     0%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     14%{
     z-index:-9;
@@ -250,7 +250,7 @@ animation-iteration-count:infinite;
     20%{
     z-index:-9;
     visibility:hidden;
-    opacity:1;
+    opacity:0;
     }
     34%{
     z-index:-6;
@@ -260,7 +260,7 @@ animation-iteration-count:infinite;
     40%{
     z-index:-6;
     visibility:hidden;
-    opacity:1;
+    opacity:0;
     }
     54%{
     z-index:-3;
@@ -270,7 +270,7 @@ animation-iteration-count:infinite;
     60%{
     z-index:-3;
     visibility:hidden;
-    opacity:1;
+    opacity:0;
     }
     74%{
     z-index:0;
@@ -280,7 +280,7 @@ animation-iteration-count:infinite;
     80%{
     z-index:0;
     visibility:hidden;
-    opacity:1;
+    opacity:0;
     }
     94%{
     z-index:3;
@@ -290,7 +290,7 @@ animation-iteration-count:infinite;
     100%{
     z-index:3;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
 }
 @keyframes s1-desc{
@@ -307,7 +307,7 @@ animation-iteration-count:infinite;
     20%{
     z-index:-8;
     visibility:hidden;
-    opacity:1;
+    opacity:0;
     }
     34%{
     z-index:-5;
@@ -317,7 +317,7 @@ animation-iteration-count:infinite;
     40%{
     z-index:-5;
     visibility:hidden;
-    opacity:1;
+    opacity:0;
     }
     54%{
     z-index:-2;
@@ -327,7 +327,7 @@ animation-iteration-count:infinite;
     60%{
     z-index:-2;
     visibility:hidden;
-    opacity:1;
+    opacity:0;
     }
     74%{
     z-index:1;
@@ -337,7 +337,7 @@ animation-iteration-count:infinite;
     80%{
     z-index:1;
     visibility:hidden;
-    opacity:1;
+    opacity:0;
     }
     94%{
     z-index:4;
@@ -360,12 +360,12 @@ animation-iteration-count:infinite;
     14%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     20%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     34%{
     z-index:-7;
@@ -412,17 +412,17 @@ animation-iteration-count:infinite;
    0%{
     z-index:3;
     visibility:hidden;
-    opacity:1;
+    opacity:0;
     }
     14%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     20%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     34%{
     z-index:-6;
@@ -541,12 +541,12 @@ animation-iteration-count:infinite;
     34%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     40%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     54%{
     z-index:-7;
@@ -598,12 +598,12 @@ animation-iteration-count:infinite;
     34%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     40%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     54%{
     z-index:-6;
@@ -711,23 +711,23 @@ animation-iteration-count:infinite;
     }
     34%{
     z-index:2;
-    visibility:visible;
-    opacity:1;
+    visibility:hidden;
+    opacity:0;
     }
     40%{
     z-index:2;
-    visibility:visible;
-    opacity:1;
+    visibility:hidden;
+    opacity:0;
     }
     54%{
     z-index:5;
     visibility:visible;
-    opacity:1
+    opacity:0.5;
     }
     60%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     74%{
     z-index:-10;
@@ -768,23 +768,23 @@ animation-iteration-count:infinite;
     }
     34%{
     z-index:3;
-    visibility:visible;
-    opacity:1;
+    visibility:hidden;
+    opacity:0;
     }
     40%{
     z-index:3;
-    visibility:visible;
-    opacity:1;
+    visibility:hidden;
+    opacity:0;
     }
     54%{
     z-index:6;
     visibility:visible;
-    opacity:1
+    opacity:0.5;
     }
     60%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     74%{
     z-index:-9;
@@ -825,18 +825,18 @@ animation-iteration-count:infinite;
     }
     34%{
     z-index:4;
-    visibility:visible;
-    opacity:1;
+    visibility:hidden;
+    opacity:0;
     }
     40%{
     z-index:4;
-    visibility:visible;
-    opacity:1;
+    visibility:hidden;
+    opacity:0;
     }
     54%{
     z-index:7;
     visibility:visible;
-    opacity:1
+    opacity:1;
     }
     60%{
     z-index:7;
@@ -903,12 +903,12 @@ animation-iteration-count:infinite;
     74%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     80%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     94%{
     z-index:-10;
@@ -949,8 +949,8 @@ animation-iteration-count:infinite;
     }
     54%{
     z-index:3;
-    visibility:visible;
-    opacity:1
+    visibility:hidden;
+    opacity:0;
     }
     60%{
     z-index:3;
@@ -960,12 +960,12 @@ animation-iteration-count:infinite;
     74%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     80%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     94%{
     z-index:-9;
@@ -1006,8 +1006,8 @@ animation-iteration-count:infinite;
     }
     54%{
     z-index:4;
-    visibility:visible;
-    opacity:1
+    visibility:hidden;
+    opacity:0;
     }
     60%{
     z-index:4;
@@ -1084,12 +1084,12 @@ animation-iteration-count:infinite;
     94%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     100%{
     z-index:5;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
 }
 @keyframes s6-img{
@@ -1141,12 +1141,12 @@ animation-iteration-count:infinite;
     94%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
     100%{
     z-index:6;
     visibility:visible;
-    opacity:1;
+    opacity:0.5;
     }
 }
 @keyframes s6-desc{
