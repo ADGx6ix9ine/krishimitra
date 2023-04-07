@@ -43,8 +43,8 @@
 }
 #slider .slider-file .slider-img{
     position:relative;
-    left:0px;
-    top:0px;
+    left:10px;
+    top:-10px;
     width:100%;
     height:100%;
     opacity:0.5;
