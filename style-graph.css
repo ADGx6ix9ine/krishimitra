@@ -46,3 +46,8 @@
   width:2%;
   height:0.5cm;
 }
+.m-div{
+display:flex;
+flex-direction:row;
+    justify-content:flex-start;
+}
