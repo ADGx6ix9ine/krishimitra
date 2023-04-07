@@ -44,7 +44,7 @@
 #slider .slider-file .slider-img{
     position:relative;
     top:2.2cm;
-    left:2cm;
+    left:0px;
     width:100%;
     height:100%;
     opacity:0.5;
