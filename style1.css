@@ -46,7 +46,6 @@
     }
 #report #calendar{
     position:relative;
-    left:25%;
     width:10cm;
     height:10cm;
     border:0px solid transparent;
@@ -64,6 +63,7 @@
     flex-direction:row;
     justify-content:space-around;
     align-items:center;
+    width:100%;
     }
 #report #weather .cond{
     position:relative;
