@@ -37,14 +37,14 @@
     font-size:1cm;
     font-family: 'Poppins', sans-serif;
     font-weight:400;
+    background-color:#1100aa11;
 }
 #personal-profile .cred{
     color:#000011;
-    background-color:red;
 }
 #personal-profile #p-options{
     color:#000000aa;
-    font-size:0.2cm;
+    font-size:0.5cm;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight:400;
 }
