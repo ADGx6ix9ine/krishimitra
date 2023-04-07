@@ -8,6 +8,7 @@
     <title>Personal Profile</title>
 </head>
 <body>
+    
     <div id="header">
         <div id="logo">
             <a>
@@ -30,41 +31,65 @@
             </a>
         </div>
      </div>
-     <div id="personal-profile">
-        <h1 id="p-text">
-            Profile
-        </h1>
-        <a id="profile-image">
-            <img>
-        </a>
-        <div id="p-options">
-            <div id="name" class="cred">Name</div>
-            <div id="area" class="cred">Area of land</div>
-            <div id="location" class="cred">Location of land</div>
-            <div id="cattle" class="cred">Number of cattle</div>
-            <div id="type">
-                <h4>Type of farming</h4>
-                <div id="t-options">
-                    organic farming<br>
-                    poultry farming<br>
-                    polyfarming<br>
-                    cattle farming<br>
-                    fish farming<br>
+        <a>
+            <img id="p-pic" src="profile.webp">
+         </a>
+         <div id="personal-profile">
+            <h1 id="p-text">
+                Profile
+            </h1>
+            <a id="profile-image">
+                <img>
+            </a>
+            <form>
+               <div class="p-options">
+                    Enter your name:
+                    <input type="text" placeholder="Name" class="cred">
                 </div>
-            </div>
-            <div id="soil">Soil health</div>
-            <div id="crop">
-                <h4>Crop</h4>
-                <div id="c-options">
-                    wheat<br>
-                    rice<br>
-                    jowar<br>
-                    bajra<br>
-                    others<br>
+                <div class="p-options">
+                    Enter your land area:
+                     <input type="text" placeholder="Area of land" class="cred">
                 </div>
-            </div>
-        </div>
-     </div>
+                <div class="p-options">
+                    Enter location of land:
+                    <input type="text" placeholder="location" class="cred">
+                </div>
+                <div class="p-options">
+                    Enter number of cattle:
+                    <input type="text" placeholder="Number of cattle" class="cred">
+                </div>
+                Select type of farming:<br>
+                <input type="checkbox">
+                Organic farming<br>
+                <input type="checkbox">
+                Poultry farming<br>
+                <input type="checkbox">
+                Polyfarming<br>
+                <input type="checkbox">
+                Fish farming<br>
+                <input type="checkbox">
+                Cattle farming<br>
+                <input type="checkbox">
+                Others<br>
+                Upload soil health certificate:
+                <input type="file" placeholder="upload"><br>
+                Select crop type:<br>
+                <input type="checkbox">
+                Rice<br>
+                <input type="checkbox">
+                Wheat<br>
+                <input type="checkbox">
+                Jowar<br>
+                <input type="checkbox">
+                Bajra<br>
+                <input type="checkbox">
+                Others<br>
+
+
+            </form>
+         </div>
+    
+     
     <div id="footer">
         <div></div>
         <div></div>
