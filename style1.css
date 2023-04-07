@@ -101,6 +101,7 @@ z-index:-5;
 }
 #slider #slider-file-6{
 z-index:-10;
+visibility:hidden;
 }
 #slider #slider-file-6 .slider-img{
 z-index:-9;
