@@ -54,120 +54,120 @@
 z-index:5;
 visibility:visible;
 animation-name:s1;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-1 .slider-img{
 z-index:6;
 height:12cm;
 animation-name:s1-img;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-1 .desc{
 z-index:7;
 animation-name:s1-desc;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-2{
 z-index:2;
 visibility:hidden;
 animation-name:s2;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-2 .slider-img{
 z-index:3;
 height:12cm;
 animation-name:s2-img;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-2 .desc{
 z-index:4;
 animation-name:s2-desc;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-3{
 z-index:-1;
 visibility:hidden;
 animation-name:s3;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-3 .slider-img{
 z-index:0;
 height:12cm;
 animation-name:s3-img;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;    
 }
 #slider #slider-file-3 .desc{
 z-index:1;
 animation-name:s3-desc;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-4{
 z-index:-4;
 visibility:hidden;
 animation-name:s4;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-4 .slider-img{
 z-index:-3;
 height:12cm;
 animation-name:s4-img;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-4 .desc{
 z-index:-2;
 animation-name:s4-desc;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-5{
 z-index:-7;
 visibility:hidden;
 animation-name:s5;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-5 .slider-img{
 z-index:-6;
 height:12cm;
 animation-name:s5-img;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-5 .desc{
 z-index:-5;
 animation-name:s5-desc;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-6{
 z-index:-10;
 visibility:hidden;
 animation-name:s6;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-6 .slider-img{
 z-index:-9;
 height:12cm;
 animation-name:s6-img;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider #slider-file-6 .desc{
 z-index:-8;
 animation-name:s6-desc;
-animation-duration:5s;
+animation-duration:30s;
 animation-iteration-count:infinite;
 }
 #slider .slider-file .desc{
