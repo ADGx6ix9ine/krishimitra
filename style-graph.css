@@ -5,11 +5,10 @@
     flex-direction:column;
     justify-content:space-around;
     align-items:center;
-    }
-    #report h1{
+}
+#report h1{
         font-family: 'Noto Sans', sans-serif;
         font-weight:500;
-        color:
     }
 #report #calendar{
     position:relative;
@@ -25,6 +24,8 @@
     flex-direction:column;
     align-items:left;
     justify-content:space-around;
+    width:100%;
+    margin-top:3cm;
 }
     #report #weather .row{
     display:flex;
@@ -32,72 +33,62 @@
     justify-content:space-around;
     align-items:center;
     width:100%;
+    font-family: 'poppins',sans-serif;
     }
  
-#report #weather .cond{
-                display:flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                width:30%;
-                overflow: wrap;
+.graph-container{
+                display: flex;
+                flex-direction:row;
+            }
+            #myCanvas-r,#myCanvas-t,#myCanvas-h,#myCanvas-w{
+                position:relative;
+                top:0.1cm;
+                border-left: 1px solid #000000;
                 border-bottom: 1px solid #000000;
             }
-            .r{
+            .cont1{
+                display: flex;
+                flex-direction: column;
+            }
+            .cont2{
                 display:flex;
-                flex-direction: row;
-                justify-content: flex-start;
-                height:1cm;
-                align-items:center;
+                flex-direction:column;
             }
-            .month-bar{
-                position: relative;
-                left:0.2cm;
-                width:2%;
-                height:0.5cm;
-                background-color: rgb(122, 14, 211);
-            }
-            .y-labels{
-                position:relative;
-                top:10cm;
-                width:10cm;
+            .x-labels{
                 display:flex;
                 flex-direction: row;
                 justify-content: space-around;
-                word-spacing: 1cm;
+                align-items:center;
             }
-            #rainfall #jan{
-                width:20.82%;
+            .y-labels{
+                display:flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items:center;
+                height:100%;
             }
-            #rainfall #feb{
-                width:20.32%;
+            .y-labels #july-r,#aug-r,#sept-r,#july-t,#aug-t,#sept-t,#july-h,#aug-h,#sept-h,#july-w,#aug-w,#sept-w{
+                position:relative;
+                top:1mm;
             }
-            #rainfall #march{
-                width:23.82%;
+            .y-labels #oct-r,#nov-r,#dec-r,#oct-t,#nov-t,#dec-t,#oct-h,#nov-h,#dec-h,#oct-w,#nov-w,#dec-w{
+                position:relative;
+                top:2mm;
             }
-            #rainfall #april{
-                width:25.32%;
+            .cont1 .o{
+                position:relative;
+                top:1mm;
             }
-            #rainfall #may{
-                width:35%;
+            .cont2 .x-labels{
+                position: relative;
+                top:1mm;
+                left:-2mm;
             }
-            #rainfall #jun{
-                width:40%;
-            }
-            #rainfall #jul{
-                width:45%;
-            }
-            #rainfall #aug{
-                width:32%;
-            }
-            #rainfall #sept{
-                width:25%;
-            }
-            #rainfall #oct{
-                width:20%;
-            }
-            #rainfall #nov{
-                width:18%;
-            }
-            #rainfall #dec{
-                width:16%;
-            }
+#humidity{
+position:relative;
+left:2cm;
+}
+#windspeed{
+position:relative;
+left:5.5cm;
+}
