@@ -1,0 +1,71 @@
+#calendar{
+    font-family:'noto Sans',sans-serif;
+    background-image: url("images/farm-wallpaper.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    min-width:fit-content;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #420574 inset;
+}
+#calendar label{
+    position:relative;
+    left:35%;
+}
+#calendar .heading{
+    position: relative;
+    left:20%;
+    font-size:1cm;
+    font-family: 'noto sans',sans-serif;
+    font-weight:800;
+    color:#22004e;
+    text-shadow: -1px 0px 0px #ffffff;
+}
+#cities{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:space-around;
+}
+.city{
+    position: relative;
+    top:0px;
+    background-color: #d9c4ffad;
+    margin:10px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow:0 0 10px #533074;
+    transition-duration: 0.5s;
+    opacity:0.5;
+}
+.city:hover{
+    box-shadow:0 0 50px #533074;
+    transition-duration: 0.5s;
+    top:-1px;
+    opacity:1;
+    cursor:pointer;
+}
+.weather{
+    display:flex;
+    flex-direction: column;
+}
+.weather img{
+    width:1cm;
+    height:1cm;
+}
+.line-1,.line-2{
+    display:flex;
+    flex-direction: row;
+    width:5cm;
+    justify-content: space-around;
+}
+.col1,.col2{
+    display: flex;
+    flex-direction: column;
+}
+.line-2 .col1 label{
+    width:2cm;
+    overflow: wrap;
+    text-align:left;
+}
